@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE COSMOS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="rgb">
+  <div id="preloader"></div>
+
+
+  
+    <nav class="navbar fixed-top" data-bs-theme="dark">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#"><img src="https://img.icons8.com/?size=512&id=OEy009vn4nTb&format=png" alt=""> The COSMOS</a> 
+          
+          <div>    
+           <a href="/extra_html/form.html"> <button class="signup">Sign Up</button></a>
+                  <div class="vr"></div> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" data-be-theme="dark">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </div>
+          
+       
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+           
+            <div class="offcanvas-header">
+                
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-be-theme="dark"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li>
+          <a class="nav-link" href="/index.html">HOME</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="/extra_html/form.html">Sign Up</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"data-be-theme="dark">
+                    More
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#aboutUs">About Us</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#service">Showroom</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#Fnote">Friendly Note </a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#end">Contact Us</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </nav>
+      
+      
+      </div>
+      <br>
+       
+      <span class="hi"><span class="hi"></span ></span>
+      <div class="wrap">
+        <a class= "hello" href="#"><div><p></p></div></a>
+        <a class= "hello" href="#"><div><p></p></div></a>
+        <a class= "hello" href="#"><div></div></a>
+        <a class= "hello" href="#"><div></div></a>
+        <a class= "hello" href="#"><div>COSMOS</div></a>
+
+        
+      
+      </div>
+  
+<br>
+<br>
+        <section id="aboutUs">
+          <div id="aboutUs" class="call">
+            <div class="card" style="width: 25rem; height: 25rem" >
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFRYZGBgZGhoaGBwcGhgeGhwaGhoaGhoYGRgdIS4lHB8rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJSE0NDQ0NDQ0NDQ0MTQ0MTQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAKoBKQMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAQIEBQYAB//EADoQAAEDAgQEBAUDBAEDBQAAAAEAAhEDIQQSMUEFUWFxIoGR8AahscHRMkLxE1Ji4aKCwtIUIzNykv/EABkBAAMBAQEAAAAAAAAAAAAAAAECAwAEBf/EACQRAAMAAgMAAgMAAwEAAAAAAAABAgMREiExBEETUWGRobFC/9oADAMBAAIRAxEAPwDzoU5MczHP6T8kPKpIYI3mddo7c/NJkt1kbjS+2p20+9naMiIWoz6jDTDcgDw6c4Lpc2D4C0nKIN5ABO+idETcgGxjcTOm9wDB6IHVBjIC4IZapEDfkdwNrfP1QiEptCVmtnw5ohv6omcozaWjNmjpEyUxg+/P7e7J0Lmn3APyNkDMVp1MnfznnfdMLQbTuNQAN58U2Gneelz1GlsTmDiJIc2LPbIImSZDpBtqCOYCTeQYi4NwQRcRGhsnFAPMyTqd5MzuZJ1JufskLQMt5keIRceIiBOpgAz/AJRsld7v73TSEGYaAlOnQfU/wPROa3l9NfJcQgMcYnSBOgt3AJnrEylYY8xblYj109784EWI0J1F9rHfb3dJAE7i/QxaDF+egJ0PdFAaJtOsbXNhA6DWB6lX1Ks19MtdJcNIIiIOtjN8vlOizdNtiSQI2MybiwEdSbn9p3gGZQxOX9JtOpABPf0FpO6tjvj1+yVTvssqNBwgkETdpjW5EjzBE8wVZYei2TsC0yTs65sANCBA6nUBQ8PiiWtlxIBdDZJa0Eg+EH9MkkmFc0qWdktnmRtbQxzEu9e62lovjfeiOKZYyxs8SYgkgE+EkXAkGRaesBQGvZq5hBAMFrjmJneSRpIsB5q/OFnDyDMOMj+124jtBVdj6VA5Q1rx4WBwsTmEZy3p+oif45Nb+jte19kB3Eg4Q8Fptc+IR5+IHs4JjsKyo0kDQiS2/PQ6Exsb21R2cLeWVA1n9Roa15ILQWaC4eATBfGVpEkDUC9ficL/AEwBncHESRkezKf3MOYDxNNpEgzqleJLzoRZqfVdoq3tLXEA6TfnaRHfbujvqNeS4NaySTlbOUX0EkmO5J6lOe0kibG0HmgvpEOloO5IA0iSYvcQJ235SXl69JVP2glTCtgFriZHikRlPLUyNL210USpSIU/D4vIehkEQDqCCQDv8weSE5wcZB7q3WiVJ7IDmwlqUi3KTHiGYXBtJF4Ji4Njf1T6rIQ23Q2KCckI5IrghuCwBhSR799wnkJhCDCJKVJC6UDD9utr+sj6eiYniSdySe5J+6ZKwTUlqS03EjlPTnFrqTlnRDewm/nr1VPAaIzx4Ytcg6eIQDF4sDm0B2E6BBfTjrbryBjuNFLIjb3f/SA9iVhRFc1c2mXHbQm7gLNExLiBMCANTYAEkBFLUxwSjEchJCM5qZCyAxhB99vwmED377KVh2szNz5skjPljNlnxZZtmiYlMxEFzi3STFmgxNpDbDsLJhGRnM57iRBHMi420NjBuDpEscEVzEmVAwxllIpNZIzaboF/t7+folY693QNzEx5IDrWi041SoNeWYd73sABlwyzAkw0ToS7XYFUrvLy7+9OaM95OsbCwA6jNlFz1N7JAQYLiTGxv4RECZ/42tvyPvYN9aBZev1676fPcdYOypvzJ6DyAsPJBJJMk3OpOs7yURg56++n3CyYGiywtYiDMEX/AI56rScFxcQsrQBM219N9vT2VZ4SsW2kgReN9xN+cek3hWjsTlxZ6DgMMC5wB8FRuXs8foPraeRKo62AyVCCIDtPlI+ak8D4gJDXLUcX4eKtH+qy7mmXRzGvqL9xCm541/GdzpXCaMzXwrP6UgkGToLRYAG+v6tuXlRYjDS2Jkcjp/PVeh8GwrKzCCLBt42OhgHaSFVcc4IwAlhEdx6D1+ql8jKp6ZsEcjzzF03tAAeHD+0ySMsgAyI0JiJsVExNQvJJ8TiZMzmk3M85m6t8ZhS0mRbnt6qvq0RBkSY8JmIMi/URIjqDtBlNqh7ipIlSmXjOXZnam5LtYl3Lz5hRxzRrzfVKymXG2pBAAIFiHAzBsf8AHeeWrp6IOdgXmRMgHSLyeukR5qO5sIrgff25pHc+yfZJyN1TC1KLJdUyYGhWPaGuBZLjlyukjLBv4dHSLX0UchPcEkIvsUHCNhcQ5j2vaYc1wc0wCJBkSDYiRobJraZJAaCSSAABJJNgAN0OEPAhsXiXVHue8gue4ucQ1rZcTJMNAAvsEBculAJpKVeFMa8FUzKiksqclUmqaLF9NR3sTqOJ2Kkhodog0VlqiucxDc1WFWmZn7R8hoo72JGPxITmrmsEw4kDeBJ9CRv1RzTRqGFLjAC0i10iEGdPqkdSWlZwUN/+R7GHKXZXHx5QC4uyCXRAJ02QxgKb/DSqMe7Zvia4nk0OAzHoJKssNa2cb+TG9L/nX+TM1GzffyQ2PLSHNJa5pBaQSCCDIII0IN5VlisOWHcG4O2tiPSQoWQc411nkTFtzp53gXUqlp6ZeWmtoiuCa4dO99e1rfNSKjTaRFrWiRJMn+65InkANkIhKOCRXVi5oBMhoho2bLpMARrJnv2hsLoRTALSpOcfCzNEEi5mSBEAybkC17omCYHOa1xgEgZtYncgahKBINzaToCZMASZBg6E3i1rptLwwevnaDpyuPnyWpfoM9PbPUqHwDlpucHteAAS5hzNMiZafNZrEYdlJxDxaHARcgxZwEiYMamO6k8L+OKtGgaLQC07FZ7G8QNR2Yq2GnK1QuWU3tFlgq+Ug2vbqOq3Xw1xcXY+crhDufQg7EG4K81o1LiVd8PxRBmTtHlYD0HyVWlS0JjyOH34ehUAcPWn9jh4iNC137gPnGxEbK54i1lKkHta0y3MXamAAZmZJJIAE7hUXBsW2swU3kD+xx/a78Hfy5K/weHLmOoPs5rXBk8iQ6OsOa09pXn58PLp+ndjyLql4eb8S4ix7jno5Adw+/cty/8Ad5rO4ylGlxsfytXxbhrgSC2HTeemvnKoK+Ec0AxYkjzETbbULmWNz4d9XNIzddiC18RFnAyDOukDuCNeq0tXglRzDUawlkiSNAb6/NZ7E0YKtFbejhyQ12NLgW3ImXazIgA8tzYdZmBdDfVaWNblAIJ8QBkg7OvFu26XJPcJuJY3N4Zyz+6CR3IAVGkSTYFz7AQIE7Cb8yLnTfS8apCZ/jZK9hmBonMZaR2P2RQjQNwQ3BHe0DQzYE2iDuNb90JwVExWhHVCQBbwzEAA3M3IEnz0QoTyEhCz7AOD/CW5RctOa+YZQ4QDOhzXt+1qDCcQkSjE9pRGPUcOT2vTbJ6JrHypVDEQqtrkZj+aZMGtF/TrB1j6/wC092FJ0VNRqEdlbYLGEaHy2nsdUy1R0Ra/9AzhTyVxwzDFlKpiC2QxoySPCXucGN6GMxdH+Mbq44e/DYjwu/8AZed7mm7uP1N8pHQK5PwzUNKuLvzhrw4Ozh7mPzE5tyQ5xvclUmZl7ZL5S3D4nl9ek5xLnElxu4m5JJ1J3KiVqeoi3I/e11uKnAnhoGW/O9+6p8bwtwsbDXpy032VEuXZ47tywRea2H/qOvUpuDKjjcua4E03unV3he0nfKCZJJOdqMuthgsCWYN7nCDWqNyj/GkHjN2Lqjh/0FUGJw4YXB2oJBFjcGDfTnpOilknZ6Hx22iqNEwSBYXNxuQNN7kaKOpdZ8xYQOn1IuVHLVz1r6OpSMJERF5N73FoEeR9U0p5CTKl2bQgCLE3iRYExH031vvqh5UVjMxv66nraZRTMp30MDus6fTS/p5JWPIMgwVIq4UscQRNhIIc2xh0EWIIt5jcaxcvvn6BNsFS5emTGVZjp+Sb89VaYfEHmdt/7RA9BoqNjzuTt5xYSSdhp5KZQqKsVojcm04VjspHiG3SL7n5rfcI4q2oGh5hwjI4at5A9F5DgsRGvvS/pPqtHw3iMERbTUjXe9oEz2+avUq5/okW4Z6fxXhYrMLgBm/cBzGjh5fLssDxThxBMi4169QtjwHjgsHGdu3Yq14ngKVZhcGz1FiD2XK409UdUZ2u14eYHjb6VF1ANAa4+K11ieI07ytvx3g72ONpHvbZZrFYQ+EQQd53k7WsII5/iX4dVs6HlVLozgaQUrnuEEEkNFrus0m7RBBAJeQQP7jzVhXwsCQbyBG5mbgcrD1CjBjnMLAbOIdH+TQQOv7jbtyC1LRJLsgRabxz68kXDuMgG4iG+s28yUEsMwRdOcI6OBuEsvTM1tD8W0TIAHQaDtN1ERnOkJMuke+irvbJ6AkJpUuqxv7ZiBMxMwM2m0zHSFGcEdGYIhInOCbCGghg5ODkKVwKwgcORGvUYOTg5YxOY9SqVTkVWMepDHo7Cv4XeHxUa+u3+lrvhr4jq0nhrXEhxAyk2JNhrZYClXjVTaFSP0m3I6eX9v0VJvXT7QePLw9lZ8R4Wo2agynctj6Km4nxHACSc7z/AG2APQuBJ9IXn7a5Igd+vryUaq4lPyldzsg/j797LTj/AMQurOs0MaAGtaLNa0WDWjYBZqq8m5RnhBc1c9XtnRM8VojOCSEUtTSFPZTQMhNyosLshiYtpPXkts2gWVOpugg2sZuJ5ag2I6JcqUBZMOiTVxLn+J5l2559+vVRajU8BWGGYw2cYaYvEZTH6rBxygnQCSFaVvonTfrKgthGpvgyTpa3pt2TsUwAnKbA21jym/reyjZku9MWpLl72Zi5mbJaM0EiRoSABNj6KThq91RUnqcx5FrgjXn5q02RqDa8N4jAgk2Ful5te2p9VsuC8dgxmBmLCb8yJC8mw+KhWeFx5BBBII3VXxpdiSnLPXsXhm1mywgzt+FhOLcOc136Gi+8zM+/Rdwv4gew2MjkeS1+E4pRxLYqWfEZhZ3kdx0KjTc9Pw6Ma32jyzHYMudYdtJuRb0VWKBBkai9ugJm3Zepca+GiJcx2YHcAAmefNY6vwctPjhotNwT6Nkj0XNeSUuzqjG6fRluK0C0h4AIe2TIBiSRaRa7Tpe3VVRGg5fyt3jcCKrgGtOWH7auymzR1cWwOiyNVuQBv72ud1EeGGx3z2/yUsV8h8uPj2QHMhIGWKm1KbS+zcrX3aJnKCbAugTHOEytSIaCeZHoGn18X0V0c2iP+bi0+7ILvf8ACIWm5v1PU8z5H0THBPvYutAnJkJ7guydvmswDFyRc4RGlxNiD6xoehSijpXApspQUTBmooagMv7+iNSfzQCGZU5/7Uqk/kffZQXJzHx7+qI0tfZdUa3MeY/H4UxjQ4WM/XzVThsRIhWODOY2gOHO3zSutHREquhKuGUV9A8vYur9n+bT3An6fdOfgMwlhB2sb3sQhylj1ga8Ms5iaWK2xGAc3UKJVoQYkHqJj5gFLSE4NELImlqkuYmFiTkFSAyrgEbIuyLKw8RrGI7WCIM6fPb3/BEyymisCL6kyTuunG5ZO5ZGfRtJbIuBHPbvBIMflVr27rUVCDTYM4IBd4coBE5budF5i2sZdpVNxLMHkPkOnxSIM3Mu3Lrm5vdbNPF9MRPa8K4GFNqYtrsoawMytAMEnMRq8zoTyFlFyT7HUm/km3Bn/f1Qimuv2LSLSm/NeQDIAHimI2JEQIAuZuNbwT+oWmPfqEDAVKZEVC4EEZSPEA3MJBbItdxEbzzkLVc0xlfLnEyDbLpEuJjUmdhGtzF9dbTIv3ROpYwhWeD4q4HXmRew3i6zBeRrab+XNFp1rdd+3paIN537peX0zSnL2j1fgXxTYNfce7jkrHGMFS9NwdyDr68l5NhsUW3kxf1G3e49VoeGcdLdSpXhml0deLOt9ljxPB4khzRIGXKQwgSI0cARP/UsjX4FVElzT91tjxNrxe7tjuOx1UbE1KmgcZIB8Qa4wRIMuBMQQfNRUVP0dNcLXpkWcNcSBliLAC5/3voo3GGgZWAg5S5xi/icGgid/wBDekzCvcUyrMExM6ZW+RNvQqnxeBIuSOeoM3jbffsiuTfZOpmZan7KUDn5e/VMqD6DaNvd91PdQtJHl3GqiPYqo5nJFeELKpRbrfa+t7gx63vbw84QsqYUjkJpT3JhSkxEspISLBHByI16E08/fJcCgYmB+y4FRg5EDkTEljyFY4TFEGd943HVVdN0o1wNOoI/1180Gtjxblmqw+LOWQ4HcTJkE39Fb4PEB8ZmCSNQ4jyBiVicLiyDc/j0V1g8dlN9Nj9io3D+jvxZlXpsRQY8QfnH1H3A7qvx/wANujMwSPn/AL8kuExRmRebxr3jmPfVXWA4wwuyGQe0DbaeoXO6qTpaT+jBYnAOaYIhRHUV67iOF0q4uL8xr6LMcS+FXtktGZvMfcJHm/YiiH4Yf+immkr1/DyNQhuwnRL+ZDPAyjNNcGq1dhFHfhk85idYmiLngaT6+tkKjRDneLTp9kd7I0TKZgrpjJtrZCo+iRxDA0m/oc68y0gGNI8XmbRaIvqqzF0vE7a5trvpP36K9/rh7WsJgAk7xLsoc476Nb/+VXYilluDcRAvPeYj5zfvHW+NdyReJyvdlaygS0uloDYsXAOMnRrf1HWZiLG8wC1ryPC10AxN4ExF9rSRJ6qTa8gm1oIF9ibGR0t3CBUMiIGs5rybAQbxFuU3N+Svoi5Bsf1id/Pf3slzTYa/mItHOfYuzKlB2MkeIgA6OIgGO4bPMCORC7A0SGvMkbjWbGeV7l07a9EajiCOYPufsq/NoDoAYHz+pT2OIva3Y/I6+iPIXRfUMabX09/dWVPiRJ5DleB0EklZprsrWkPaSZ8N5bt4pEXm0E6bFPZXTKhk2jV/+sa8QfL+VzqDHAkgkAWg6XF3WNtotci/POU8QptLE9VWXLM7oWvhuSg12Rdsi0G/0tp0urp2Ly2blc0GQSxsnSMwMyLDwmRqq2scxcTAGp0Hk0DvoBbsCtUz9GmmynqM7W7A6/8AI37x0FgZVYVGTOUHcxrDRe8DYTJUfKk0KQDSQ3USpYEhcaSTQmyCWJuVTKlOLT8whxBvohoOyKQulSywESFGexZoKY6kySAIkkASQBe13EwB1NlzXJryLQIsJvMnc9OyXKYBixmDFjGoB329UAjg5HpV41058uqjJ4Ijry+8+9Vgos69EseWOIBaYkXabS0ggEOa4EEOFiHA7ylo4ss/aDrMzBnQ2NiOhH1mKcWCxoIl7TDXbFlzlPVp0PJxGgakZVkQfI/lH30O9Po0/DOITAYTm/sNyb2yEfr2tAdewMEq8aWVm5mxmiJnS4MEdx0+oPn7SRcHS4I1HI/7Vng+KuB8RJP9+rtAAHE/rAA0NxoCAo3j2deH5GuqN5hviGtRhrmtkWLjMfL6+sLWcM+JA7w1GgdR+CsBgOK06gDKsAO0d8pvt0PrupbME+nJZ42a2N2XF41Ise0riyQ14diUWuz0evwWjWGYASdx9wqPF/CpabCQovAOP3DXHKdBNgezjbyPzW7weMDxDgofiV9Pp/6I1kyYn7tHneI4EQDZUWN4fltF17PWwbXC0LK8b4FqQFG8WTF2+0WxfJjJ0+meUYjDqDUZC1vEsFlkQs9iaN10Ycmxska8K2Vz6hMAnRGexAe1d0ZNHM10BquJMkyeqA5qO4JhVlWznqQBCaWiN5kyItFoIM3M5pECIFzNikJpC2ybkC4e+fVJCIQkhbYjRzURjufX6W+cLm1bNBa0gEnSCZiznAgkDLYTaTzTA7nfv02TJgaDtePe99+VvoFJov5nvrJF9LHlHmOqhMcRcSI/j7wpLqoeWDwsAaGz48thdx/UZOpgRJ0CZMXRJZiL681PwGBfiHZKYBflJiQJytJJBJ1gE+XkqRr1JpYggyLW2PMQfui6Y8/0TEMgxM9RKjwpNQzdBy+5CbYj9ITCpTCFAa5GY9CaEcg6lGSS7n5lLiKTIGUxGoifPVFc6U6nQDkdAZWwRcH0+4Snxd/qrLEcOLdtR8iPwQVBfSLYcD/qErlr0ZUn4RXJ7w4QDI3AM/uAIIHUQfRPrkO8Qsdx+EBKwoWU5pTAulYIYFdKGCllExIY/kih6im0aXvYg+saG2huntesYsqWPe1hYHnITOWZaDEZmg/pMbiJWg4H8RlmVjz4ZAzANDm8idA8XOsH/LZZJj0VvMFJUKl2VjLUvo9Xw9SlXbbJItnYbSIiSO0+ICZ1U3B4nE4bY1GAiIEti8zeWHTSQea8joYpzTLXOaYiWktMWMSNRIB8gtVwb4zexpbUzPIjIWgSdZDpcI11APbdczwteHWs80tUen4b4upugXY7cOP0P5hWbONtNnCQd/v1WDw3EMPi2l7Wy8fqFs46uaDmI/yiOqY2kWT/AEn+GbsP4Op85Ub5IpOGKW0bbHcLpV25mkX3H3GyxHGPht7JOWW8xolp8Yq0nWOUz1gjkQfNaLhnxOx/hqANdz/afwofj29rplUskL9o80xOEI2VdUpr2HH8HoVpsGuO409PwsXxr4XqU5cBmbzF/XkqTTnpmamvPTFPYguarOvhSNQob2LqmjmuGiIQmEI7moZaqKiLQIhNIRsogmbyIEai8mekC3+XRDITbEaGQkTyE0hHYujpShIun38kUxWg9JhcfCCYBJABMAAlx7AAknYAlOpgkgASTYAXJJ0AA1QmmdOW3QXP3XSm2DRNzyNWiNhMmALz1uddjYWBBmTc/v5n57eymb34f/FHkDRVteitcowKc1ywCU16LTeQbKI16eHopitFyzF5mhp20UPF07fRR2vUinW2KffL0TjrwrHMIK59PcaflWbsKCZmegQn0CTcQEnEbkVxZuNtei54baCTa8gCDewuZERe3ZHxAgwNFHc1BoZDVyVcgEUc/uN528krSmFKFjBGuRmVYUeU4FYxNbUBSlRJ5dPWLnTSfqNdU9lSFjEr+pcHlBHMEbg7XV1g/iSo0Na4B4FsxzZyJOrph2u4mwuqJlQTcW5HT8pxi8aedvfmlqU/Sk5Kjxm6o8epvETI5Ohr47SR6Eori0yWET2iN7ZTlHYrABymYXiT2QJzAaA7f/Un9Pko1hX0dkfL+qR6JhOLvY2Hmw3G32VrgPiIOgE62B2P4+iwOE4xmgCc3IydLmCZ2ncKY3ihjQHl/P4UnD+0dKuK7NrjcDh64mMrv7mj6tWU4p8NPYC5sPZzbt3GoQ8JxZzXS4mCZPSeQtKuafG2gyDAO4mR3G493WUNeG2mu+zC1sOQgZBeTFrWmTIsb2tJm+kbyPQsXRoVh4hlcdHNj5t0Pks9xDgD2iWHOwSZbeJiZbqDYeidP9kLxfcmWc1DIVhUoEKM9ioczWiMQkKI5qYQiKxITU4pEdgOA+X8fdKmrkdg0OldnPsBNKbK2waKyU4OTAuTEwocnByCE4ImJDXojXqKnhEBMZWhFNWd1AaiNTJitBH01GexSmJKiBiGWpMqI5IgNsEQkRHIaBhZRq1JzCA5pBLWuHVr2hzT5gg+ajqVicQ95bne50BoGYkwA0AAToLC3RAIFqcChLgsYMHIjaijhKiYlip5J4coYRWLGJGZGo4lzf0ujpse4Nioic1bQ3JrwtGcRO4A7aehUtmNncen+1QFEppeKLTmo1mF4kAIMEcpjzHIqZT4sWnwk9OfqsjTKl0yhwRdZWaipVpVv1th39zYDvMaO+qq8ZwdwBcwh7eY1HduoQKWissC8yLnVK1oZtV6jO1KUKO9i1XG6YzGw05LN1FjntaIjgmkIr0IrCCFIUpQyiYWU1cmrAP/2Q==" class="cimg card-img-top" alt="...">
+            </div>
+            
+            <div class="card-2" style="width: 25rem;" data-bs-theme="dark">
+              <div class="card-body">
+                <br>
+                <center><h2 class="card-title"> <pre> ABOUT US: </pre></h2><hr><div class="spinner-grow text-light" role="status">
+                  <span class="visually-hidden"></span>
+                </div></center>
+                
+                
+                <p class="card-text">Welcome to our car showroom website! We are a team of passionate car enthusiasts dedicated to bringing you the best car-buying experience possible. .</p>
+
+                <p>At our showroom, you will find a wide selection of cars from top brands, including new and used models. Our knowledgeable sales team is always ready to assist you in finding the perfect vehicle to meet your needs and budget. </p>
+    
+                
+                <p>Thank you for considering our showroom for your next car purchase. We look forward to serving you and helping you find your perfect car!</p>
+                
+              </div>
+              <br>
+            </div>
+            
+          </div>
+        </section>
+      
+      
+      <br>
+      <br>
+
+
+   
+        <hr>
+        <br>
+ 
+     
+
+
+   
+       
+       <hr>
+       <br>
+<br>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+        <section id="aboutUs">
+          <div id="aboutUs" class="call">
+            <div class="card" style="width:80%; height: 20rem " >
+          
+            <div class="universe"  data-bs-theme="dark">
+              <div class="card-body">
+                <br>
+                <center><h2 class="card-title"> <pre> ABOUT US: </pre></h2><hr><div class="spinner-grow text-light" role="status">
+                  <span class="visually-hidden"></span>
+                </div></center>
+                
+                
+                <p class="card-text">Welcome to our car showroom website! We are a team of passionate car enthusiasts dedicated to bringing you the best car-buying experience possible. .</p>
+
+                <p>At our showroom, you will find a wide selection of cars from top brands, including new and used models. Our knowledgeable sales team is always ready to assist you in finding the perfect vehicle to meet your needs and budget. </p>
+    
+                
+                <p>Thank you for considering our showroom for your next car purchase. We look forward to serving you and helping you find your perfect car!</p>
+                
+              </div>
+              <br>
+            </div>
+            
+          </div>
+        </section>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" data-bs-theme="dark">
+             <center><strong> --> More about UNIVERSE :</strong></center>
+              </button>
+            </h2>
+          
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body"><div class="spinner-grow text-light" role="status">
+                <span class="visually-hidden"></span>
+              </div>
+           <p>The universe is the vast and all-encompassing expanse that contains all of space, time, matter, and energy. It encompasses everything we know, including galaxies, stars, planets, cosmic structures, and all forms of matter and energy. Here are some key details about the universe:</p>
+
+          <p>  1. **Origin and Evolution:** The current leading scientific explanation for the origin of the universe is the Big Bang theory. This theory suggests that the universe began as an extremely hot and dense state around 13.8 billion years ago and has been expanding and evolving ever since.</p>
+            
+           <p> 2. **Expanding Universe:** Observations of distant galaxies moving away from us in all directions provide evidence for the expansion of the universe. This expansion is not due to galaxies moving through space but rather space itself stretching over time.</p>
+            
+           <p> 3. **Cosmic Microwave Background Radiation:** One of the most important pieces of evidence supporting the Big Bang theory is the cosmic microwave background radiation (CMB). This is a faint glow of microwave radiation that fills the universe and is a remnant of the early hot and dense state of the universe.</p>
+            
+          <p>  4. **Observable Universe:** The observable universe refers to the portion of the universe that we can currently observe. This is limited by the speed of light and the age of the universe, meaning that there are regions of the universe beyond our observational reach.</p>
+            
+          <p>  5. **Galaxies and Stars:** Galaxies are massive systems composed of stars, planets, gas, dust, and dark matter, bound together by gravity. Our own galaxy is the Milky Way, which contains billions of stars. Stars are massive balls of hot, glowing gas that release energy through nuclear fusion.</p>
+            
+          <p>  6. **Dark Matter and Dark Energy:** The universe contains more than just the visible matter we can see. Dark matter is a mysterious form of matter that doesn't emit light or energy but exerts gravitational influence, affecting the motion of galaxies. Dark energy is a hypothetical form of energy thought to be responsible for the accelerated expansion of the universe.</p>
+            
+          <p>  7. **Cosmology:** Cosmology is the scientific study of the universe's origin, structure, evolution, and eventual fate. It involves theories, models, and observations from various fields such as astronomy, astrophysics, and particle physics.</p>
+            
+          <p>  8. **Multiverse Hypothesis:** Some theories suggest the possibility of a multiverse, where our universe is just one of many universes that exist, each with potentially different physical laws and constants.</p>
+            
+          <p>  9. **Black Holes:** Black holes are extremely dense regions in space where the gravitational pull is so strong that nothing, not even light, can escape from them. They form when massive stars collapse under their own gravity.</p>
+            
+          <p>  10. **Cosmic Structures:** The universe is not evenly distributed; it contains a wide variety of structures, including galaxy clusters, superclusters, filaments, and voids. These structures form as a result of the gravitational interactions between matter.</p>
+            
+           <p> The universe remains a subject of intense study and exploration by scientists and researchers around the world. As our understanding of the cosmos deepens, new discoveries are made that continue to expand our knowledge of this vast and intricate system.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        <section id="service">
+          <div class="title">
+             <h1> The UNIVERSE... </h1> 
+          </div>
+          <hr>
+        <br>
+       
+        <br>
+          <hr>
+          <br>
+          <br>
+          <div class="service-box">
+              <div class="single-service-1">
+                  <img src="https://i.pinimg.com/originals/29/4d/d9/294dd931f2a2f9d5a3b97ce1a7d08388.jpg">
+                  <div class="overlay-1"></div>
+                  <div class="service-desc">
+                      <h3>HELIX NEBULA</h3>
+                      <hr>
+                      <p></p>
+                      <a href="https://en.wikipedia.org/wiki/Helix_Nebula" class="btn btn-primary">More Info</a>
+                  </div>
+              </div>
+              <div class="single-service-2">
+                   <img src="https://scitechdaily.com/images/Black-Hole-Event-Horizon-Artistic-Illustration.jpg">
+                   <div class="overlay-2"></div>
+                   <div class="service-desc-2">
+                    <br>
+                   <h3>BLACK HOLE</h3>
+                   <hr>
+                   <p></p>
+                   <a href="https://en.wikipedia.org/wiki/Black_hole" class="btn btn-primary">More Info</a>                   
+                  </div>
+              </div> 
+              
+              
+              <div class="single-service-3">
+                <img src="https://e0.pxfuel.com/wallpapers/747/591/desktop-wallpaper-big-bang-explosion-big-bang-space.jpg">
+                <div class="overlay-3"></div>
+                <div class="service-desc-3">
+                <h3>BIG BANG </h3>
+                <hr>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Big_bang" class="btn btn-primary">More Info</a>
+
+                </div>
+              </div> 
+              <div class="single-service-4">
+                <img src="https://www.nsf.gov/news/mmg/media/images/PF7300_stanford_f.jpg">
+                <div class="overlay-4"></div>
+                <div class="service-desc-4">
+                  <br>
+                <h3>DARK MATTER</h3>
+                <hr>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Dark_matter" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="service-box">
+          <div class="single-service-5">
+              <img src="https://www.pixelstalk.net/wp-content/uploads/images6/Galaxy-Wallpaper-4k-Wallpaper-Black-Hole.jpg">
+              <div class="overlay-5"></div>
+              <div class="service-desc-5">
+                  <h3>THE GALAXIES</h3>
+                  <hr>
+                  <p></p>
+                  <a href="https://en.wikipedia.org/wiki/galaxies" class="btn btn-primary">More Info</a>
+              </div>
+          </div>
+          <div class="single-service-6">
+               <img src="https://www.the-sun.com/wp-content/uploads/sites/6/2023/07/betelgeuse-star-starry-sky-artistic-805100958.jpg?w=1240">
+               <div class="overlay-6"></div>
+               <div class="service-desc-6">
+                <br>
+               <h3>STAR</h3>
+               <hr>
+               <p></p>
+               <a href="https://en.wikipedia.org/wiki/stars" class="btn btn-primary">More Info</a>
+               </div>
+              </div>
+          </div>
+          <div class="service-box">
+            <div class="single-service-7">
+                <img src="https://wallpapers.com/images/hd/cosmic-microwave-background-i4grjod55sdi90zc.jpg">
+                <div class="overlay-7"></div>
+                <div class="service-desc-7">
+                    <h3>Cosmic Microwave Background Radiation</h3>
+                    <hr>
+                    <p></p>
+                    <a href="https://en.wikipedia.org/wiki/cosmic_Microwave_Background_Radiation" class="btn btn-primary">More Info</a>
+                </div>
+            </div>
+            <div class="single-service-8">
+                 <img src="https://miro.medium.com/v2/resize:fit:1112/1*UVWBThIZe8e0nKh6Er1yag.jpeg">
+                 <div class="overlay-8"></div>
+                 <div class="service-desc-8">
+                  <br>
+                 <h3>Multiverse Hypothesis</h3>
+                 <hr>
+                 <p></p>
+                 <a href="https://en.wikipedia.org/wiki/Multiverse" class="btn btn-primary">More Info</a>
+                 </div>
+                </div>
+            </div>
+          <div class="service-box">
+            <div class="single-service-9">
+                <img src="https://img.freepik.com/premium-photo/cosmos-stars-cluster-structure-stunning-astrophotography-dramatic-celestial-wallpaper-bright-blue-nebula-highquality-astro-photography-astronomy-james-webb-space-telescope-image-nasa-space_146482-9182.jpg">
+                <div class="overlay-9"></div>
+                <div class="service-desc-9">
+                    <h3>Cosmic Structures</h3>
+                    <hr>
+                    <p></p>
+                    <a href="https://en.wikipedia.org/wiki/List_of_largest_cosmic_structures" class="btn btn-primary">More Info</a>
+                </div>
+            </div>
+            <div class="single-service-10">
+                 <img src="https://c02.purpledshub.com/uploads/sites/48/2022/03/universe-expansion-3c06d8c.jpg">
+                 <div class="overlay-10"></div>
+                 <div class="service-desc-10">
+                  <br>
+                 <h3>Expanding Universe</h3>
+                 <hr>
+                 <p></p>
+                 <a href="https://en.wikipedia.org/wiki/Expanding_universe" class="btn btn-primary">More Info</a>
+                 
+                </div>
+            </div>
+          <br>
+          <br>
+        <hr>
+<br>
+<br>
+
+
+<span class="hi"><span class="hi"></span ></span>
+<div class="wrap">
+  <a class= "hello" href="#"><div><p></p></div></a>
+  <a class= "hello" href="#"><div><p></p></div></a>
+  <a class= "hello" href="#"><div></div></a>
+  <a class= "hello" href="#"><div></div></a>
+  <a class= "hello" href="#"><div>COSMOS</div></a>
+</div>
+
+
+<br>
+<br>
+        <hr>
+
+
+
+                  </section>                 
+                </div>
+                 <section id="Fnote">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" data-bs-theme="dark">
+                         <strong> THANK YOU FOR VISITNG :</strong>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>I wanted to take a moment to express my gratitude for the exceptional service I received during my recent visit to your showroom. From the moment I stepped into your showroom, I was impressed with the warm and welcoming atmosphere, as well as the high level of professionalism displayed by your staff.</p>
+                          <p>Your website was incredibly user-friendly and informative, which made my decision-making process much easier. The photos and descriptions of the cars on offer were accurate and detailed, allowing me to get a sense of the cars before I even came into the showroom. Your website also provided me with valuable information about financing options and car maintenance services, which was very helpful. </p>
+                          <p>When I visited the showroom, the staff were attentive and knowledgeable, and they answered all my questions with patience and expertise. The cars themselves were in excellent condition, and I was impressed with the range of models and makes available. I ultimately purchased a car from your showroom and couldn't be happier with my purchase.</p>
+                          <p>  Thank you again for the exceptional service you provided. I will definitely be recommending your website and showroom to friends and family in the future.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section id="end">
+                    <div id="aboutUs" class="call">
+                      
+
+                      <section id="aboutUs">
+                        <div id="aboutUs" class="call bg-transparent text-light">
+                          <div class="card bg-transparent text-light" style="width: 30rem; height: 27rem" >
+                            <img src="https://i.pinimg.com/originals/29/4d/d9/294dd931f2a2f9d5a3b97ce1a7d08388.jpg" class="cimg card-img-top bg-transparent text-light" alt="...">
+                          </div>
+                          
+                          
+                          
+                        </div>
+                     
+
+
+                      <div class="card-2" style="width: 25rem;" data-bs-theme="dark">
+                        <div class="card-body">
+                          <br>
+                          <center><h2 class="card-title"><strong><pre> CONTACT US : </pre></strong></h2></center>
+                          <hr>  
+                          <br>
+                        <h4> <p class="card-text">Insta ID: @Leo_pratham </p></h4>
+                            <br>
+                            
+                            <h4><p>Whatsapp No.: 635468XXXX </p></h4>
+                            <br>
+                          
+                          <h4>  <p> 
+                         Facebook:- @ Leo.pratham  
+                          </p></h4>
+                            <br>
+                        
+                          <h4> <p>
+                          Linked-In:- Pratham Joshi
+                          </p></h4>
+                          <br> 
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <script>
+                    var loader = document.getElementById("preloader");
+                    window.addEventListener("load",function(){
+                        loader.style.display = "none";
+                    })
+                </script>
+                  </body>
+</html>
